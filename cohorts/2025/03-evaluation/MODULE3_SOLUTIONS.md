@@ -31,7 +31,9 @@ In this homework, we evaluate vector search results using:
 - 0.84
 - 0.94
 
-**Answer**: ⏳ [To be verified with correct minsearch version]
+**Answer**: **0.84** (exact: 0.848714) ✅
+
+**Verified**: 2026-03-17
 
 ---
 
@@ -44,7 +46,9 @@ In this homework, we evaluate vector search results using:
 
 **Question**: What's the MRR?
 
-**Answer**: ⏳ [To be verified]
+**Answer**: **0.29** (exact: 0.290285) ✅
+
+**Verified**: 2026-03-17
 
 ---
 
