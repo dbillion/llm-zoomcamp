@@ -1,0 +1,1587 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+documents-llm.json
+documents.json
+elastic-search.md
+open-ai-alternatives.md
+parse-faq.ipynb
+rag-intro.ipynb
+README.md
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="documents-llm.json">
+[
+  {
+    "course": "llm-zoomcamp",
+    "documents": [
+      {
+        "text": "Yes, but if you want to receive a certificate, you need to submit your project while we\u2019re still accepting submissions.",
+        "section": "General course-related questions",
+        "question": "I just discovered the course. Can I still join?"
+      },
+      {
+        "text": "You don't need it. You're accepted. You can also just start learning and submitting homework (while the form is Open) without registering. It is not checked against any registered list. Registration is just to gauge interest before the start date.",
+        "section": "General course-related questions",
+        "question": "Course - I have registered for the [insert-zoomcamp-name]. When can I expect to receive the confirmation email?"
+      },
+      {
+        "text": "The zoom link is only published to instructors/presenters/TAs.\nStudents participate via Youtube Live and submit questions to Slido (link would be pinned in the chat when Alexey goes Live). The video URL should be posted in the announcements channel on Telegram & Slack before it begins. Also, you will see it live on the DataTalksClub YouTube Channel.\nDon\u2019t post your questions in chat as it would be off-screen before the instructors/moderators have a chance to answer it if the room is very active.",
+        "section": "General course-related questions",
+        "question": "What is the video/zoom link to the stream for the \u201cOffice Hours\u201d or live/workshop sessions?"
+      },
+      {
+        "text": "Issue: I get the notice that due to traffic, I\u2019m on a waitlist for new signups.\nAnswer: There was a form to submit our emails to, so Alexey can send it in bulk. If you missed that deadline, just sign up manually (or via request tech demo link) and use the chat to request for free hours for \u201cllm zoomcamp\u201d\nIssue: I\u2019m a pre-existing user from a different zoomcamp and I\u2019m not awarded the free hours even though I\u2019ve submitted my email in the form.\nAnswer: Just request it via their chat, after you\u2019ve logged in using your pre-existing account, citing \u201cllm zoomcamp\u201d .",
+        "section": "General course-related questions",
+        "question": "SaturnCloud - How do I get access?"
+      },
+      {
+        "text": "We get 15 free hours per month, which might be limited to the free tier\u2019s hardware configuration.",
+        "section": "General course-related questions",
+        "question": "SaturnCloud - How many free hours do we get?"
+      },
+      {
+        "text": "This message means you have used all allocated hours. Make sure to set Shutout After in settings. Also, do not leave your notebooks running. If your hours are out, try using Google Colab and Kaggle.",
+        "section": "General course-related questions",
+        "question": "SaturnCloud - Something went wrong. Max of 15 hours of resource usage per month"
+      },
+      {
+        "text": "Check the quota and reset cycle carefully - is the free hours per month or per week? Usually if you change the configuration, the free hours quota might also be adjusted,or it might be billed separately.\nGoogle Colab\nKaggle\nDatabricks (?), so many others.\nUse GPTs to find out. Some might have restrictions on what you can and cannot install, so be sure to read what is included in a free vs paid tier.",
+        "section": "General course-related questions",
+        "question": "Cloud alternatives with GPU"
+      },
+      {
+        "text": "When you set up your account you are automatically assigned a random name such as \u201cLucid Elbakyan\u201d for example. Click on the Jump to your record on the leaderboard link to find your entry.\nIf you want to see what your Display name is, click on the Edit Course Profile button.\nFirst field is your nickname/displayed-name, change it if you want to be known as your Slack username or Github username or whatever nickname of your choice, if you want to remain anonymous.\nUnless you want \u201cLucid Elbakyan\u201d on your certificate, it is mandatory that you change the second field to your official name as in your identification documents - passport, national ID card, driver\u2019s license, etc. This is the name that is going to appear on your Certificate!",
+        "section": "General course-related questions",
+        "question": "Leaderboard - I am not on the leaderboard / how do I know which one I am on the leaderboard?"
+      },
+      {
+        "text": "No, you can only get a certificate if you finish the course with a \u201clive\u201d cohort.\nWe don't award certificates for the self-paced mode. The reason is you need to peer-review 3 capstone(s) after submitting your own project.\nYou can only peer-review projects at the time the course is running; after the form is closed and the peer-review list is compiled.",
+        "section": "General course-related questions",
+        "question": "Certificate - Can I follow the course in a self-paced mode and get a certificate?"
+      },
+      {
+        "text": "Yes, you need to pass the Capstone project to get the certificate. Homework is not mandatory, though it is recommended for reinforcing concepts, and the points awarded count towards your rank on the leaderboard.",
+        "section": "General course-related questions",
+        "question": "I missed the first homework - can I still get a certificate?"
+      },
+      {
+        "text": "This course is being offered for the first time, and things will keep changing until a given module is ready, at which point it shall be announced. Working on the material/homework in advance will be at your own risk, as the final version could be different.",
+        "section": "General course-related questions",
+        "question": "I was working on next week\u2019s homework/content - why does it keep changing?"
+      },
+      {
+        "text": "Summer 2025 (via Alexey).",
+        "section": "General course-related questions",
+        "question": "When will the course be offered next?"
+      },
+      {
+        "text": "Please check the bookmarks and pinned links, especially DataTalks.Club\u2019s YouTube account.",
+        "section": "General course-related questions",
+        "question": "Are there any lectures/videos? Where are they?"
+      },
+      {
+        "text": "Your WSL2 is set to use Y.Y GiB, not all your computer memory. Create .wslconfig file under your Windows user profile directory (C:\\Users\\YourUsername\\.wslconfig) with the desired RAM allocation:\n[wsl2]\nmemory=8GB\nRestart WSL: wsl --shutdown\nRun the free command to verify the changes. For more details, read this article.",
+        "section": "Module 1: Introduction",
+        "question": "WSL2 - ResponseError: model requires more system memory (X.X GiB) than is available (Y.Y GiB). My system has more than X.X GiB."
+      },
+      {
+        "text": "You may receive the following error when running the OpenAI chat.completions.create command due to insufficient credits in your OpenAI account:",
+        "section": "Module 1: Introduction",
+        "question": "OpenAI: Error when running OpenAI chat.completions.create command"
+      },
+      {
+        "text": "RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}\nThe above errors are related to your OpenAI API account\u2019s quota.\nThere is no free usage of OpenAI\u2019s API so you will be required to add funds using a credit card (see pay as you go in the OpenAI settings at platform.openai.com). Once added, re-run your python command and you should receive a successful return code.\nSteps to resolve:\nAdd credits to your account here (min $5)\nIn chat.completions.create(model='gpt-4o', \u2026) specify one of the available for you models:\nYou might need to recreate an API key after adding credits to your account and update it locally.",
+        "section": "Module 1: Introduction",
+        "question": "OpenAI: Error: RateLimitError: Error code: 429 -"
+      },
+      {
+        "text": "Update openai version from 0.27.0 -> any 1.x version",
+        "section": "Module 1: Introduction",
+        "question": "OpenAI: Error: 'Cannot import name OpenAI from openai'; How to fix?"
+      },
+      {
+        "text": "Using the Openai API does not cost much, you can recharge from 5 dollars. At least for what I spent on the first unit it was barely 5 cents.",
+        "section": "Module 1: Introduction",
+        "question": "OpenAI: How much will I have to spend to use the Open AI API?"
+      },
+      {
+        "text": "No, you don't have to pay for this service in order to complete the course homeworks, you could use some of the alternatives free from this list posted into the course Github.\nllm-zoomcamp/01-intro/open-ai-alternatives.md at main \u00b7 DataTalksClub/llm-zoomcamp (github.com)",
+        "section": "Module 1: Introduction",
+        "question": "OpenAI: Do I have to subscribe and pay for Open AI API for this course?"
+      },
+      {
+        "text": "If you get this error, it\u2019s likely that elasticsearch doesn\u2019t get enough RAM\nI specified the RAM size to the configuration (-m 4GB)\ndocker run -it \\\n--rm \\\n--name elasticsearch \\\n-m 4GB \\\n-p 9200:9200 \\\n-p 9300:9300 \\\n-e \"discovery.type=single-node\" \\\n-e \"xpack.security.enabled=false\" \\\ndocker.elastic.co/elasticsearch/elasticsearch:8.4.3\nOr give it _less_ RAM:\nTip for Github Codespace users\nIf you want to run elasticsearch server in a docker, then it may fail with the command in the documentation.\nIn that case, you can try inserting this line -e \"ES_JAVA_OPTS=-Xms512m -Xmx512m\".\nThis reduces the resource usage.\nFull command:\ndocker run -it \\\n--rm \\\n--name elasticsearch \\\n-p 9200:9200 \\\n-p 9300:9300 \\\n-e \"discovery.type=single-node\" \\\n-e \"xpack.security.enabled=false\" \\\n-e \"ES_JAVA_OPTS=-Xms512m -Xmx512m\" \\\ndocker.elastic.co/elasticsearch/elasticsearch:8.4.3\nIf it doesn't work, try this:\nsudo sysctl -w vm.max_map_count=262144\nAnd give the Java machine inside the container more RAM:\ndocker run -it \\\n--rm \\\n--name elasticsearch \\\n-p 9200:9200 \\\n-p 9300:9300 \\\n--ulimit nofile=65536:65536 \\\n--ulimit memlock=-1:-1 \\\n--memory=4g \\\n--cpus=2 \\\n-e \"discovery.type=single-node\" \\\n-e \"xpack.security.enabled=false\" \\\n-e \"ES_JAVA_OPTS=-Xms2g -Xmx2g\" \\\ndocker.elastic.co/elasticsearch/elasticsearch:8.4.3\nAnother possible solution may be to set the memory_lock to false:\ndocker run -it \\\n--rm \\\n--name elasticsearch \\\n-p 9200:9200 \\\n-p 9300:9300 \\\n-e \"discovery.type=single-node\" \\\n-e \"xpack.security.enabled=false\" \\\n-e \"ES_JAVA_OPTS=-Xms512m -Xmx512m\" \\\n-e \"bootstrap.memory_lock=false\" \\\ndocker.elastic.co/elasticsearch/elasticsearch:8.4.3",
+        "section": "Module 1: Introduction",
+        "question": "ElasticSearch: ERROR: Elasticsearch exited unexpectedly"
+      },
+      {
+        "text": "Instead of document as used in the course video, use doc",
+        "section": "Module 1: Introduction",
+        "question": "ElasticSearch: ERROR: Elasticsearch.index() got an unexpected keyword argument 'document'"
+      },
+      {
+        "text": "When you stop the container, the data you previously added to elastic will be gone. To avoid it, we can add volume mapping:\ndocker volume create elasticsearch_data\ndocker run -it \\\n--rm \\\n--name elasticsearch \\\n-p 9200:9200 \\\n-p 9300:9300 \\\n-v elasticsearch_data:/usr/share/elasticsearch/data \\\n-e \"discovery.type=single-node\" \\\n-e \"xpack.security.enabled=false\" \\\ndocker.elastic.co/elasticsearch/elasticsearch:8.4.3",
+        "section": "Module 1: Introduction",
+        "question": "Docker: How do I store data persistently in Elasticsearch?"
+      },
+      {
+        "text": "You can store your different API keys in a yaml file that you will add in your .gitignore file. Be careful to never push or share this file.\nFor example, you can create a new file named \u201capi_keys.yml\u201d in your repository.\nThen, do not forget to add it in your .gitignore file:\n#api_keys\napi_keys.yml\nYou can now fill your api_keys.yml file:\nOPENAI_API_KEY: \u201csk[...]\u201d\nGROQ_API_KEY: \u201cgqk_[...]\u201d\nSave your file.\nYou will need the pyyaml library to load your yaml file, so run this command in your terminal:\npip install pyyaml\nNow, open your jupyter notebook.\nYou can load your yaml file and the associated keys with this code:\nimport yaml\n# Open the file\nwith open('api_keys.yml', 'r') as file:\n# Load the data from the file\ndata = yaml.safe_load(file)\n# Get the API key (Groq example here)\ngroq_api_key = data['GROQ_API_KEY']\nNow, you can easily replace the \u201capi_key\u201d value directly with the loaded values without loading your environment variables.\nAdded by M\u00e9lanie Fouesnard",
+        "section": "Module 1: Introduction",
+        "question": "Authentication: Safe and easy way to store and load API keys"
+      },
+      {
+        "text": "Option1: using direnv\ncreated the .envrc file & added my API key, ran direnv allow in the terminal\nwas getting an error: \"OpenAIError: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable\"\nresolution: install dotenv & add the following to a cell in the notebook. You can install dotenv by running: pip install python-dotenv.\nfrom dotenv import load_dotenv\nload_dotenv('.envrc')\nOption 2: using Codespaces Secrets\nLog in to your GitHub account and navigate to Settings > Codespaces\nThere is a section called secrets where you can create Secrets like OPENAI_API_KEY and select for which repositories the secret is supposed to be available.\nOnce you set this up, the key will be available in your codespaces session",
+        "section": "Module 1: Introduction",
+        "question": "Authentication: Why is my OPENAI_API_KEY not found in the jupyter notebook?"
+      },
+      {
+        "text": "Prior to using Ollama models in llm-zoomcamp tasks, you need to have ollama installed on your pc and the relevant LLM model downloaded with ollama from https://www.ollama.com\nTo download ollama for Ubuntu:\n``` curl -fsSL https://ollama.com/install.sh | sh ```\nTo download ollama for Mac and Windows, follow the guide on this link:\nhttps://ollama.com/download/\nOllama a number of open-source LLMs like:\nLlama3\nPhi3\nMistral and Mixtral\nGemma\nQwen\nYou can explore more models on https://ollama.com/library/\nTo download a model in Ollama, simply open command prompt and type:\n``` ollama run model_name ```\ne.g.\n``` ollama run phi3 ```\nIt will automatically download the model and you can use it same way as above for later time.\nTo use Ollama models for inference and llm-zoomcamp tasks, use the following function:\nimport ollama\ndef llm(prompt):\nresponse = ollama.chat(\nmodel=\"llama3\",\nmessages=[{\"role\": \"user\", \"content\": prompt}]\n)\nreturn response['message']['content']\nFor example, we can use it in the following way:\nprompt = \"When does the llm-zoomcamp course start?\"\nanswer = llm(prompt)\nprint(answer)",
+        "section": "Module 1: Introduction",
+        "question": "OpenSource: How can I use Ollama open-source models locally on my pc without using any API?"
+      },
+      {
+        "text": "The question asks for the number of tokens in gpt-4o model. tiktoken is a python library that can be used to get the number of tokens. You don't need openai api key to to get the number of tokens. You can use the code provided in the question to get the number of tokens.",
+        "section": "Module 1: Introduction",
+        "question": "OpenSource: I am using Groq, and it doesn't provide a tokenizer library based on my research. How can we estimate the number of OpenAI tokens asked in homework question 6?"
+      },
+      {
+        "text": "You can use any LLM platform for your experiments and your project. Also, the homework is designed in such a way that you don\u2019t need to have access to any paid services and can do it locally. However, you would need to adjust the code for that platform. See their documentation pages.",
+        "section": "Module 1: Introduction",
+        "question": "OpenSource: Can I use Groq instead of OpenAI?"
+      },
+      {
+        "text": "Yes. See module 2 and the open-ai-alternatives.md in module 1 folder.",
+        "section": "Module 1: Introduction",
+        "question": "OpenSource: Can I use open-source alternatives to OpenAI API?"
+      },
+      {
+        "text": "This is likely to be an error when indexing the data. First you need to add the index settings before adding the data to the indices, then you will be good to go applying your filters and query.",
+        "section": "Module 1: Introduction",
+        "question": "Returning Empty list after filtering my query (HW Q3)"
+      },
+      {
+        "text": "Answer",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Question"
+      },
+      {
+        "text": "Please see the General section or use CTRL+F to search this doc.",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Saturn Cloud issues"
+      },
+      {
+        "text": "Of course you should have first added your Github repository in SaturnCloud and the SSH Key in your Github account settings.\nOnce you are in jupyter notebook from SaturnCloud, open the terminal and write these lines:\n1- Navigate to Your Project Directory:\ncd /home/jovyan/my_project\n2- Configure GitHub Remote to Use SSH:\ngit remote set-url origin git@github.com:username/repository.git\n3- Stage, Commit and push your changes:\ngit add .\ngit commit -m \"Your commit message\"\ngit push",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "SaturnCloud: How do you manage the changes from SaturnCloud to your Github repository?"
+      },
+      {
+        "text": "Clean out your cache using the following code:\nfrom transformers import TRANSFORMERS_CACHE\nprint(TRANSFORMERS_CACHE)\nimport shutil\nshutil.rmtree(TRANSFORMERS_CACHE)\nNote: Make sure to shutdown the notebook and restart the kernel",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "SaturnCloud: How can I clean out the hugging face model cache on a saturn cloud notebook?"
+      },
+      {
+        "text": "Yes, you can. Here the step to follow:\n- Open a bash session in the elasticsearch container\n```bash\ndocker exec -it elasticsearch bash\n```\n- Add path.repo configuration:\n```bash\necho path.repo: [\"/usr/share/elasticsearch/backup\"] >> /usr/share/elasticsearch/config/elasticsearch.yml\n```\n- Restart container and verify it was created correctly:\n```bash\ndocker restart elasticsearch\ncurl -X GET \"localhost:9200/_snapshot/my_backup?pretty\"\n```\n- Create the snapshot (this is the backup ;) )\n```bash\ncurl -X PUT \"localhost:9200/_snapshot/my_backup/snapshot_1?wait_for_completion=true\" -H 'Content-Type: application/json' -d'\n{\n\"indices\": \"your_index_name\",\n\"ignore_unavailable\": true,\n\"include_global_state\": false\n}\n'\n```\n- Copy the backup to my machine:\n```bash\ndocker cp elasticsearch:/usr/share/elasticsearch/backup /path/to/local\n```\n- Now create the new container or use docker-compose just in case you are following the module 2:\n```bash\ndocker compose up -d\n```\n- Add de path.repo configuration in the new one, same as before:\n```bash\ndocker exec -it new_elasticsearch bash\necho path.repo: [\"/usr/share/elasticsearch/backup\"] >> /usr/share/elasticsearch/config/elasticsearch.yml\n```\n- Restart the docker container and copy the snapshot in it:\n```bash\ndocker restart new_elasticsearch\ndocker cp /path/to/local/backup new_elasticsearch:/usr/share/elasticsearch\n```\n- Register the Snapshot Repository in the New Container:\n```bash\ncurl -X PUT \"localhost:9200/_snapshot/my_backup\" -H 'Content-Type: application/json' -d'\n{\n\"type\": \"fs\",\n\"settings\": {\n\"location\": \"/usr/share/elasticsearch/backup\"\n}\n}\n'\n```\n- Verify if it exists:\n```bash\ncurl -X GET \"localhost:9200/_snapshot/my_backup/snapshot_1?pretty\"\n```\n- Restore the snapshot:\n```bash\ncurl -X POST \"localhost:9200/_snapshot/my_backup/snapshot_1/_restore\" -H 'Content-Type: application/json' -d'\n{\n\"indices\": \"your_index_name\",\n\"ignore_unavailable\": true,\n\"include_global_state\": false\n}\n'\n```\n- Show your indexes:\n```bash\ncurl -X GET \"localhost:9200/_cat/indices?v\"\n```\n- Extra point: If you want to change the original index name by other when you restore the snapshot:\n```bash\ncurl -X POST \"localhost:9200/_snapshot/my_backup/snapshot_1/_restore?pretty\" -H 'Content-Type: application/json' -d'\n{\n\"indices\": \"old_index\",\n\"ignore_unavailable\": true,\n\"include_global_state\": false,\n\"rename_pattern\": \"old_index\",\n\"rename_replacement\": \"new_index\"\n}\n'\n```",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "ElasticSearch: Can I backup and restore my elasticsearch index from one to another docker container?"
+      },
+      {
+        "text": "You can limit the amount of memory used in the ElasticSearch container by adding the next line to the environment section of your docker-compose. Choose the amount of your preference, e.g.:\n- \"ES_JAVA_OPTS=-Xms1g -Xmx1g\"  # Set Java heap size to 1GB\n- You can limit CPU usage for an Elasticsearch service within a docker-compose.yaml file, you can utilize the resource configuration options available in Docker Compose. This includes cpus to limit the number of CPUs that the container can utilize. You can configure your Elasticsearch section in the docker-compose.yaml to restrict CPU usage:\nservices:\nelasticsearch:\nimage: docker.elastic.co/elasticsearch/elasticsearch:8.4.3\ncontainer_name: elasticsearch\nenvironment:\n- discovery.type=single-node\n- xpack.security.enabled=false\nports:\n- \"9200:9200\"\n- \"9300:9300\"\ndeploy:\nresources:\nlimits:\ncpus: '1.0'  # Limits to 1 CPU\nreservations:\ncpus: '0.5'  # Reserves 0.5 CPUs",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "ElasticSearch: How can I limit the memory used by the ElasticSearch container?"
+      },
+      {
+        "text": "You have several ways to inspect the content of a file when you are inside a Docker container.\nFirst, make sure you ran the docker container interactively using bash:\ndocker exec -it <container> bash\nThen, you are able to use bash commands. For this case, I propose two solutions:\nUse \u201ccat\u201d and the file you want to see the content: cat your_file . This will directly print the content in your terminal.\nInstall vim or nano using apt get and open the file using vim or nano (this can be more suitable for larger files):\napt-get install vim\nvim your_file\nThen, you can exit your file in vim by pressing ESC then typing \u201c:q\u201d and finally press ENTER\nAdded by M\u00e9lanie Fouesnard",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Docker: How to inspect the content of a file inside a Docker container ?"
+      },
+      {
+        "text": "Use the following line instead in mounting the current volume to docker for Q4:\n`-v \"/${PWD}/ollama_files:/root/.ollama\"`",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Docker: Error: Docker mounted volume adds ;C to end of windows path"
+      },
+      {
+        "text": "In Docker Desktop, try to increase the resource.\nGo to the Dashboard > Settings > Resources. Raise the memory limit to 15GB and swap to 4GB - be generous. Applied and restarted the changes\nAdded by Dandy Arif Rahman",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Docker: Why does inferring using Phi 3 locally take so long on Macbook Air M1?"
+      },
+      {
+        "text": "docker system prune -a",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Docker: How can to clean docker cache?"
+      },
+      {
+        "text": "A network connection failure usually causes this error and if you try to repeat the operation immediately it\u2019ll still fail. It\u2019s a temporary error, you should wait for 2 or 3 minutes before attempting to pull the model again. Then some minutes later, the operation will success.\nAdded by Eduardo Mu\u00f1oz",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Ollama: \u201cError: pull model manifest: 503: no healthy upstream\u201d when pulling a model with Ollama"
+      },
+      {
+        "text": "To solve this you need to pull one of these models first: https://ollama.com/library . Also check the proper name of the module.\nAdded by Taras Goriachko\nOllama: Running Ollama locally on Colab gives error after the llm() line\nAPIConnectionError: Connection error.\nIt seems to be running at localhost:11434 however localhost:11434/v1/ gives 404\nFound a solution in the Medium article and this link:\nhttps://medium.com/@mauryaanoop3/running-ollama-on-google-colab-free-tier-a-step-by-step-guide-9ef74b1f8f7a\nhttps://github.com/ollama/ollama/issues/703\nAdded by Hanaa",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Ollama: Error: NotFoundError: Error code: 404 - {'error': {'message': \"model XXX not found, try pulling it first\" \u2026"
+      },
+      {
+        "text": "ollama list\nollama rm [model_name]",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Ollama: How can remove Ollama model?"
+      },
+      {
+        "text": "InternalServerError: Error code: 500 - {'error': {'message': 'model requires more system memory (5.6 GiB) than is available (1.5 GiB)', 'type': 'api_error', 'param': None, 'code': None}}.\nRunning elastic search with the docker-compose is the cause of the RAM memory issue. To fix this you need to change the docker-compose.yaml file to limit the RAM usage of elastic search\nversion: '3.8'\nservices:\nelasticsearch:\nimage: docker.elastic.co/elasticsearch/elasticsearch:8.4.3\ncontainer_name: elasticsearch\nenvironment:\n- discovery.type=single-node\n- xpack.security.enabled=false\n- ES_JAVA_OPTS=-Xms1g -Xmx1g  # change 1\nports:\n- \"9200:9200\"\n- \"9300:9300\"\ndeploy:\nresources:\nlimits:\nmemory: 2G  # change 2\nollama:\nimage: ollama/ollama\ncontainer_name: ollama\nvolumes:\n- ollama:/root/.ollama\nports:\n- \"11434:11434\"\nvolumes:\nollama:\nAdded by Zoe Zelkha",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Ollama: Error code 500 InternalServerError"
+      },
+      {
+        "text": "Manually set the token as below:\naccess_token = <your_token>\nmodel  = AutoModelForCausalLM.from_pretrained(\"mistralai/Mistral-7B-v0.1\", token=access_token)\ntokenizer = AutoTokenizer.from_pretrained(\"mistralai/Mistral-7B-v0.1\", token=access_token)",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Mistral AI: Unable to get Mistral-7B-v0.1 access despite accepting terms on HF"
+      },
+      {
+        "text": "To solve just install transformers directly from github\n!pip install git+https://github.com/huggingface/transformers",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Python: Error: ModuleNotFoundError: No module named 'transformers.cache_utils'"
+      },
+      {
+        "text": "To solve just install transformers directly from github\n!pip install git+https://github.com/huggingface/transformers",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Python: Exception: data did not match any variant of untagged enum PyPreTokenizerTypeWrapper at line 40 column 3"
+      },
+      {
+        "text": "pip install protobuf==3.20.1\nAdded by Ibai Irastorza",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "Python: from google.protobuf.pyext import _message / TypeError: bases must be types"
+      },
+      {
+        "text": "1. search with the model name on hugging face.\n2. get the transformer used on the model.\n3. using the transformer, encode the string you want.\n4. calculate the length of the outputted tensor.\nThe previous code snippet uses the tokenizer of google/gemma-2b LLM. \nDon\u2019t forget to make your token secret.\nAdded by kamal",
+        "section": "Module 2: Open-Source LLMs",
+        "question": "HuggingFace: How to get the number of tokens in a certain string related to a certain model on hugging face?"
+      },
+      {
+        "text": "The last version I checked for CUDA was 12.5 using a cloud environment like Saturn Cloud. Then the torch package for python should be on supported for that version of CUDA, is followed by cu121 which means that version of torch supports cuda 12.1. Check this page to find the package and version available for CUDA (remember to search the keyword \u201ccu\u201d\nIn my case I focused on using a torch==2.3.1 and the last cuda version supported was 12.1 (it works on Saturn Cloud)\nTo install all the needed packages use this command:\n!pip install transformers accelerate torch==2.3.1+cu121 torchvision==0.18.1+cu121 torchaudio==2.3.1+cu121 --trusted-host download.pytorch.org --index-url https://download.pytorch.org/whl/cu121\nAnd after that just executed this command:\n!pip install --upgrade transformers",
+        "section": "Module 3: X",
+        "question": "How to run a model using CUDA for GPU usage?"
+      },
+      {
+        "text": "Upgrade elasticsearch 7.13.3 to 8.14.0 or any 7.x installation to 8.x. The earlier modules used a docker image of elasticsearch 8.4.3 so the python installation of elasticsearch must also be at least 8.x.\nOr use the keyword \u2018body\u2019 instead of \u2018document\u2019\nFor conda users, if you\u2019re trying to update to elasticsearch 8.x using conda install elasticsearch==8.4.3  but getting a \u201cPackagesNotFoundError\", try this:\n\n$ conda config --add channels conda-forge\n$ conda config --set channel_priority strict\n$ conda install -c conda-forge elasticsearch==8.4.3",
+        "section": "Module 3: X",
+        "question": "ElasticSearch: Error: Elasticsearch.index() got an unexpected keyword argument 'document'"
+      },
+      {
+        "text": "This worked for me:",
+        "section": "Module 3: X",
+        "question": "ElasticSearch: TypeError: Elasticsearch.search() got an unexpected keyword argument 'knn'"
+      },
+      {
+        "text": "Try to running docker container based on first course module like this :\ndocker run -it \\\n--rm \\\n--name elasticsearch \\\n-p 9200:9200 \\\n-p 9300:9300 \\\n-e \"discovery.type=single-node\" \\\n-e \"xpack.security.enabled=false\" \\\ndocker.elastic.co/elasticsearch/elasticsearch:8.4.3\nAnd don\u2019t forget to forwarding your port 9200 if you\u2019re using github codespace or run locally in vscode",
+        "section": "Module 3: X",
+        "question": "ElasticSearch: ConnectionError: Connection error caused by: ConnectionError(Connection error caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x7c455bb94ac0>: Failed to establish a new connection: [Errno 111] Connection refused)) in elastic search"
+      },
+      {
+        "text": "As seen in this video: https://www.youtube.com/watch?v=ptByfB_YcEg&t=102s, we can get scores on obtained hits that are greater than 1 despite having a \u201ccosine\u201d similarity measure in our index settings. We would thus expect scores between -1 and 1. However, in the case of the final query, we have several scores additionned together to provide the final score:\nThe KNN related score, which is between -1 and 1 (cosine similarity)\nThe text relevance score:  BM25 algorithm scores which can be any positive number, including above 1. This is a \u201cranking function which calculates score to represent a document's relevance with respect to query\u201d (source: https://stackoverflow.com/questions/43794749/what-is-bm25-and-why-elasticsearch-chose-this-algorithm-for-scoring-in-version-5).\nSince we have a \u201cmatch\u201d filter in our query, this triggers the usage of the BM25 ranking algorithm and the final score contains this information.\nTo get more details about the final scores, you can modify the search query and add an \u201cexplain\u201d parameter:\nresponse = es_client.search(\nindex=index_name,\nquery={\n\"match\": {\"section\": \"General course-related questions\"},\n},\nknn=knn_query,\nsize=5,\nexplain=True\n)\nAdded by M\u00e9lanie Fouesnard",
+        "section": "Module 3: X",
+        "question": "Why do I get scores greater than 1 on my hits after querying my ElasticSearch database ?"
+      },
+      {
+        "text": "For this module homework make sure you install the package sentence-transformers it can be installed as simply as:\npip install sentence-transformers",
+        "section": "Module 3: X",
+        "question": "Not module named \u201csentence_transformers\u201d"
+      },
+      {
+        "text": "I was getting this error at this step: es_client.indices.create(index=index_name, body=index_settings)\nI checked the log of the elasticsearch server and running this command, the status was red: curl -X GET \"http://localhost:9200/_cluster/health?pretty\"\nMy problem was that I did not have enough disk space in my computer for docker images. I ended up removing unused ones, manually and pruning:\ndocker image prune\ndocker volume prune\ndocker container prune\nAdded by Ibai Irastorza",
+        "section": "Module 3: X",
+        "question": "Can not create the index: Connection timeout."
+      },
+      {
+        "text": "Make sure your search function receives a query vector, not a dictionary. To resolve this, ensure that the q passed to the search_function within evaluate is correctly transformed into an embedding vector. The following code can help:\nv_query = embedding_model.encode(query_text)\nresults = search_function(v_query)",
+        "section": "Module 3: X",
+        "question": "TypeError: unsupported operand type(s) for *: 'float' and 'dict' when running the vector search function within the evaluate function"
+      },
+      {
+        "text": "max_value = numpy_array.max()",
+        "section": "Module 3: X",
+        "question": "Find maximum of an numpy array (of any dimension):"
+      },
+      {
+        "text": "Cosine similarity is a measure used to calculate the similarity between two non-zero vectors, often used in text analysis to determine how similar two documents are based on their content. This metric computes the cosine of the angle between two vectors, which are typically word counts or TF-IDF values of the documents. The cosine similarity value ranges from -1 to 1, where 1 indicates that the vectors are identical, 0 indicates that the vectors are orthogonal (no similarity), and -1 represents completely opposite vectors.",
+        "section": "Module 3: X",
+        "question": "What is the cosine similarity?"
+      },
+      {
+        "text": "A \u201cdocument\u201d is a collection of fields, which are the key-value pairs that contain your data, that have been serialized as a JSON object.",
+        "section": "Module 3: X",
+        "question": "What are documents in ElasticSearch?"
+      },
+      {
+        "text": "docker stop elasticsearch\ndocker rm elasticsearch\nHow to scale Elastic search scores from [0, 1] to [-1, 1] to compare its results with your own ones, example calculating ranks using dot_product metric ?\nscore = (es_score - 0.5) * 2",
+        "section": "Module 4: Monitoring",
+        "question": "runing docker docker: Error response from daemon: Conflict. The container name \"/elasticsearch\" is already in use by container \"20467e6723d78ff2e4e9e0c9a8b9580c07f070e4c852d12c585b1d71aefd6665\". You have to remove (or rename) that container to be able to reuse that name. See 'docker run --help'."
+      },
+      {
+        "text": "Upgrade `sentence-transformers` to v3.0.0>= e.x pip install sentence-transformers>=3.0.0 to avoid the warnings",
+        "section": "Module 4: Monitoring",
+        "question": "Warning: 'model \"multi-qa-mpnet-base-dot-v1\" was made on sentence transformers v3.0.0 bet' how to suppress?"
+      },
+      {
+        "text": "Solution 1 : Install Visual C++ Redistributable\nSolution 2 : Install Visual Studio, not Visual Studio Code. Like in this depicted below and restart your system. For more details, please follow this link : https://discuss.pytorch.org/t/failed-to-import-pytorch-fbgemm-dll-or-one-of-its-dependencies-is-missing/201969",
+        "section": "Module 4: Monitoring",
+        "question": "In Windows OS : OSError: [WinError 126] The specified module could not be found. Error loading \"C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\torch\\lib\\fbgemm.dll\" or one of its dependencies."
+      },
+      {
+        "text": "Inside .env file change POSTGRES_HOST=localhost",
+        "section": "Module 4: Monitoring",
+        "question": "OperationalError when running python prep.pypsycopg2. OperationalError: could not translate host name \"postgres\" to address: No such host is known. How do I fix this issue?"
+      },
+      {
+        "text": "By default, in the dataframe visualization, Pandas truncate the text content in a column to 50 characters. In order to view the entire explanation given by the judge llm for a NON RELEVANT answer, as in figure:\nThe instruction to show the results must be preceded by:\npd.set_option('display.max_colwidth', None)\nHere are the specs for the display_max_colwidth option, as describide in the official docs:\ndisplay.max_colwidth : int or None\nThe maximum width in characters of a column in the repr of\na pandas data structure. When the column overflows, a \"...\"\nplaceholder is embedded in the output. A 'None' value means unlimited.\n[default: 50] [currently: 50]",
+        "section": "Module 4: Monitoring",
+        "question": "How set Pandas to show entire text content in a column. Useful to view the entire Explanation column content in the LLM-as-judge section of the offline-rag-evaluation notebook"
+      },
+      {
+        "text": "import numpy as np\nnormalize_vec = lambda v: v / np.linalg.norm(v)\ndf[\"new_col\"] = df[\"org_col\"].apply(norm_vec)",
+        "section": "Module 4: Monitoring",
+        "question": "How to normalize vectors in a Pandas DataFrame column (or Pandas Series)?"
+      },
+      {
+        "text": "To compute the 75% percentile or 0.75 quantile:\nquantile: int = df[\"col\"].quantile(q=0.75)",
+        "section": "Module 4: Monitoring",
+        "question": "How to compute the quantile or percentile of Pandas DataFrame column (or Pandas Series)?"
+      },
+      {
+        "text": "1. Delete all containers (including running ones):\n```\ndocker rm -f\n```\n2. Remove all images:\n```\ndocker rmi -f\n```\n3. Delete all volumes:\n```\ndocker volume rm\n```",
+        "section": "Module 5: X",
+        "question": "How can I remove all Docker containers, images, and volumes, and builds from the terminal?"
+      },
+      {
+        "text": "Use the service name and port provided in the docker-compose.yaml file for the elasticsearch, e.g <http://><docker-compose-service-name>:<port> <http://elasticsearch:9200>",
+        "section": "Module 5: X",
+        "question": "I have reached the orchestration pipeline's export and I\u2019m facing a connection error at the stage of exporting to the vector database. Can someone help with the connection string?"
+      },
+      {
+        "text": "Answer",
+        "section": "Module 6: X",
+        "question": "Question"
+      },
+      {
+        "text": "Answer",
+        "section": "Module 6: X",
+        "question": "Question"
+      },
+      {
+        "text": "Answer",
+        "section": "Capstone Project",
+        "question": "Question"
+      },
+      {
+        "text": "No, the capstone is a solo project.",
+        "section": "Capstone Project",
+        "question": "Is it a group project?"
+      },
+      {
+        "text": "You only need to submit 1 project. \nIf the submission at the first attempt fails, you can improve it and re-submit during attempt#2 submission window.\nIf you want to submit 2 projects for the experience and exposure, you must use different datasets and problem statements.\nIf you can\u2019t make it to the attempt#1 submission window, you still have time to catch up to meet the attempt#2 submission window\nRemember that the submission does not count towards the certification if you do not participate in the peer-review of 3 peers in your cohort",
+        "section": "Capstone Project",
+        "question": "Do we submit 2 projects, what does attempt 1 and 2 mean?"
+      },
+      {
+        "text": "No, it does not (answered in office hours Jul 1st, 2024). You can participate in the math-kaggle-llm-competition as a group if you want to form teams; but capstone is an individual attempt.",
+        "section": "Capstone Project",
+        "question": "Does the competition count as the capstone?"
+      },
+      {
+        "text": "Each submitted project will be evaluated by 3 (three) randomly assigned students who have also submitted the project.\nYou will also be responsible for grading the projects from 3 fellow students yourself. Please be aware that: not complying to this rule also implies you failing to achieve the Certificate at the end of the course.\nThe final grade you get will be the median score of the grades you get from the peer reviewers.\nAnd of course, the peer review criteria for evaluating or being evaluated must follow the guidelines defined here (TBA for link).",
+        "section": "Capstone Project",
+        "question": "How is my capstone project going to be evaluated?"
+      },
+      {
+        "text": "Answer: No, you don\u2019t have to use ElasticSearch. You can use any library you want. Just make sure it is documented so your peer-reviewers can reproduce your project.",
+        "section": "Certificates",
+        "question": "Do I have to use ElasticSearch or X library?"
+      },
+      {
+        "text": "Answer",
+        "section": "Workshops: dlthub",
+        "question": "Question"
+      },
+      {
+        "text": "Since dlt is open-source, we can use the content of this workshop for a capstone project. Since the main goal of dlt is to load and store data easily, we can even use it for other zoomcamps (mlops zoomcamp project for example). Do not hesitate to ask questions or use it directly in your projects.\nAdded by M\u00e9lanie Fouesnard",
+        "section": "Workshops: dlthub",
+        "question": "Can I use the workshop materials for my own projects or share them with others?"
+      },
+      {
+        "text": "The error indicates that you have not changed all instances of \u201cemployee_handbook\u201d to \u201chomework\u201d in your pipeline settings",
+        "section": "Workshops: dlthub",
+        "question": "There is an error when opening the table using dbtable = db.open_table(\"notion_pages___homework\"): FileNotFoundError: Table notion_pages___homework does not exist.Please first call db.create_table(notion_pages___homework, data)"
+      },
+      {
+        "text": "Make sure you open the correct table in line 3: dbtable = db.open_table(\"notion_pages___homework\")",
+        "section": "Workshops: dlthub",
+        "question": "There is an error when running main(): FileNotFoundError: Table notion_pages___homework does not exist.Please first call db.create_table(notion_pages___homework, data)"
+      },
+      {
+        "text": "You can use the db.table_names() to list all the tables in the db",
+        "section": "Workshops: dlthub",
+        "question": "How do I know which tables are in the db"
+      },
+      {
+        "text": "Currently, DLT does not have connectors for ClickHouse or StarRocks but are open to contributions from the community to add these connectors.",
+        "section": "Workshops: dlthub",
+        "question": "Does DLT have connectors to ClickHouse or StarRocks?"
+      },
+      {
+        "text": "If you get this error\nOr 401 Client Error , then you either need to grant access to the key or the key is wrong.",
+        "section": "Workshops: dlthub",
+        "question": "Notebook does not have secret access or 401 Client Error: Unauthorized for url: https://api.notion.com/v1/search"
+      },
+      {
+        "text": "Install directly from source E.g `pip install \"requests @ https://github.com/psf/requests/archive/refs/tags/v2.32.3.zip\"`",
+        "section": "Workshops: X",
+        "question": "Error: How to fix requests library only installs v2.28 instead of v2.32 required for lancedb?"
+      },
+      {
+        "text": "If you get this error while doing the homework , simply restart the ollama server using nohup y running this line of the notebook !nohup ollama serve > nohup.out 2>&1 &\nIf you do stop and restart the cell, you will need to rerun the cell containing ollama serve first.\nAdded by Abiodun Gbadamosi",
+        "section": "Workshops: X",
+        "question": "Connection refused error on prompting the ollam RAG?"
+      },
+      {
+        "text": "Answer",
+        "section": "Workshops: X",
+        "question": "Question"
+      }
+    ]
+  }
+]
+</file>
+
+<file path="elastic-search.md">
+# Elastic Search 
+
+This document contains useful things about Elasticsearch
+
+# `multi_match` Query in Elasticsearch
+
+The `multi_match` query is used to search for a given text across multiple fields in an Elasticsearch index.
+
+It provides various types to control how the matching is executed and scored. 
+
+There are multiple types of `multi_match` queries:
+
+- `best_fields`: Returns the highest score from any one field.
+- `most_fields`: Combines the scores from all fields.
+- `cross_fields`: Treats fields as one big field for scoring.
+- `phrase`: Searches for the query as an exact phrase.
+- `phrase_prefix`: Searches for the query as a prefix of a phrase.
+
+
+## `best_fields`
+
+The `best_fields` type searches each field separately and returns the highest score from any one of the fields.
+
+This type is useful when you want to find documents where at least one field matches the query well.
+
+
+```json
+{
+    "size": 5,
+    "query": {
+        "bool": {
+            "must": {
+                "multi_match": {
+                    "query": "How do I run docker on Windows?",
+                    "fields": ["question", "text"],
+                    "type": "best_fields"
+                }
+            }
+        }
+    }
+}
+```
+
+## `most_fields`
+
+The `most_fields` type searches each field and combines the scores from all fields.
+
+This is useful when the relevance of a document increases with more matching fields.
+
+```json
+{
+    "multi_match": {
+        "query": "How do I run docker on Windows?",
+        "fields": ["question^4", "text"],
+        "type": "most_fields"
+    }
+}
+```
+
+## `cross_fields`
+
+The `cross_fields` type treats fields as though they were one big field.
+
+It is suitable for cases where you have fields representing the same text in different ways, such as synonyms.
+
+```json
+{
+    "multi_match": {
+        "query": "How do I run docker on Windows?",
+        "fields": ["question", "text"],
+        "type": "cross_fields"
+    }
+}
+```
+
+## `phrase`
+
+The `phrase` type looks for the query as an exact phrase within the fields.
+
+It is useful for exact match searches.
+
+```json
+{
+    "multi_match": {
+        "query": "How do I run docker on Windows?",
+        "fields": ["question", "text"],
+        "type": "phrase"
+    }
+}
+```
+
+## `phrase_prefix`
+
+The `phrase_prefix` type searches for documents that contain the query as a prefix of a phrase.
+
+This is useful for autocomplete or typeahead functionality.
+
+
+```json
+{
+    "multi_match": {
+        "query": "How do I run docker on Windows?",
+        "fields": ["question", "text"],
+        "type": "phrase_prefix"
+    }
+}
+```
+</file>
+
+<file path="open-ai-alternatives.md">
+moved [here](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/awesome-llms.md#openai-api-alternatives)
+</file>
+
+<file path="parse-faq.ipynb">
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "4cd1eaa8-3424-41ad-9cf2-3e8548712865",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import io\n",
+    "\n",
+    "import requests\n",
+    "import docx"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "8180e7e4-b90d-4900-a59b-d22e5d6537c4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def clean_line(line):\n",
+    "    line = line.strip()\n",
+    "    line = line.strip('\\uFEFF')\n",
+    "    return line\n",
+    "\n",
+    "def read_faq(file_id):\n",
+    "    url = f'https://docs.google.com/document/d/{file_id}/export?format=docx'\n",
+    "    \n",
+    "    response = requests.get(url)\n",
+    "    response.raise_for_status()\n",
+    "    \n",
+    "    with io.BytesIO(response.content) as f_in:\n",
+    "        doc = docx.Document(f_in)\n",
+    "\n",
+    "    questions = []\n",
+    "\n",
+    "    question_heading_style = 'heading 2'\n",
+    "    section_heading_style = 'heading 1'\n",
+    "    \n",
+    "    heading_id = ''\n",
+    "    section_title = ''\n",
+    "    question_title = ''\n",
+    "    answer_text_so_far = ''\n",
+    "     \n",
+    "    for p in doc.paragraphs:\n",
+    "        style = p.style.name.lower()\n",
+    "        p_text = clean_line(p.text)\n",
+    "    \n",
+    "        if len(p_text) == 0:\n",
+    "            continue\n",
+    "    \n",
+    "        if style == section_heading_style:\n",
+    "            section_title = p_text\n",
+    "            continue\n",
+    "    \n",
+    "        if style == question_heading_style:\n",
+    "            answer_text_so_far = answer_text_so_far.strip()\n",
+    "            if answer_text_so_far != '' and section_title != '' and question_title != '':\n",
+    "                questions.append({\n",
+    "                    'text': answer_text_so_far,\n",
+    "                    'section': section_title,\n",
+    "                    'question': question_title,\n",
+    "                })\n",
+    "                answer_text_so_far = ''\n",
+    "    \n",
+    "            question_title = p_text\n",
+    "            continue\n",
+    "        \n",
+    "        answer_text_so_far += '\\n' + p_text\n",
+    "    \n",
+    "    answer_text_so_far = answer_text_so_far.strip()\n",
+    "    if answer_text_so_far != '' and section_title != '' and question_title != '':\n",
+    "        questions.append({\n",
+    "            'text': answer_text_so_far,\n",
+    "            'section': section_title,\n",
+    "            'question': question_title,\n",
+    "        })\n",
+    "\n",
+    "    return questions"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "7d3c2dd7-f64a-4dc7-a4e3-3e8aadfa720f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "faq_documents = {\n",
+    "    'data-engineering-zoomcamp': '19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw',\n",
+    "    'machine-learning-zoomcamp': '1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8',\n",
+    "    'mlops-zoomcamp': '12TlBfhIiKtyBv8RnsoJR6F72bkPDGEvPOItJIxaEzE0',\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "f94efe26-05e8-4ae5-a0fa-0a8e16852816",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "data-engineering-zoomcamp\n",
+      "machine-learning-zoomcamp\n",
+      "mlops-zoomcamp\n"
+     ]
+    }
+   ],
+   "source": [
+    "documents = []\n",
+    "\n",
+    "for course, file_id in faq_documents.items():\n",
+    "    print(course)\n",
+    "    course_documents = read_faq(file_id)\n",
+    "    documents.append({'course': course, 'documents': course_documents})"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "06b8d8be-f656-4cc3-893f-b159be8fda21",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import json"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "30d50bc1-8d26-44ee-8734-cafce05e0523",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "with open('documents.json', 'wt') as f_out:\n",
+    "    json.dump(documents, f_out, indent=2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "0eabb1c6-5cc6-4d4d-a6da-e27d41cea546",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[\n",
+      "  {\n",
+      "    \"course\": \"data-engineering-zoomcamp\",\n",
+      "    \"documents\": [\n",
+      "      {\n",
+      "        \"text\": \"The purpose of this document is to capture frequently asked technical questions\\nThe exact day and hour of the course will be 15th Jan 2024 at 17h00. The course will start with the first  \\u201cOffice Hours'' live.1\\nSubscribe to course public Google Calendar (it works from Desktop only).\\nRegister before the course starts using this link.\\nJoin the course Telegram channel with announcements.\\nDon\\u2019t forget to register in DataTalks.Club's Slack and join the channel.\",\n",
+      "        \"section\": \"General course-related questions\",\n",
+      "        \"question\": \"Course - When will the course start?\"\n",
+      "      },\n",
+      "      {\n"
+     ]
+    }
+   ],
+   "source": [
+    "!head documents.json"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1b21af5c-2f6d-49e7-92e9-ca229e2473b9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+</file>
+
+<file path="rag-intro.ipynb">
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2f426f65-7904-4231-92a5-e899547d90ef",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "!pip install minsearch"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "63b0fd25-41a2-48ad-b9bf-3f1265308bd4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import minsearch"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9b37cce2-ed84-408b-9106-d61360aa82c9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import json"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "5bdaf6ce-2540-494f-989c-5b94b1b6626c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "with open('documents.json', 'rt') as f_in:\n",
+    "    docs_raw = json.load(f_in)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "42b9b1f9-3c90-42b0-beb4-cb419f9cdcea",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "documents = []\n",
+    "\n",
+    "for course_dict in docs_raw:\n",
+    "    for doc in course_dict['documents']:\n",
+    "        doc['course'] = course_dict['course']\n",
+    "        documents.append(doc)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "57de60e5-b96c-499c-a7cf-0f30fc33b324",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'text': \"The purpose of this document is to capture frequently asked technical questions\\nThe exact day and hour of the course will be 15th Jan 2024 at 17h00. The course will start with the first  “Office Hours'' live.1\\nSubscribe to course public Google Calendar (it works from Desktop only).\\nRegister before the course starts using this link.\\nJoin the course Telegram channel with announcements.\\nDon’t forget to register in DataTalks.Club's Slack and join the channel.\",\n",
+       " 'section': 'General course-related questions',\n",
+       " 'question': 'Course - When will the course start?',\n",
+       " 'course': 'data-engineering-zoomcamp'}"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "documents[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "c499838b-73b3-44be-8ba6-f46d3693aa59",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "index = minsearch.Index(\n",
+    "    text_fields=[\"question\", \"text\", \"section\"],\n",
+    "    keyword_fields=[\"course\"]\n",
+    ")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e201f0f3-b380-43a5-95ee-62b1b79002d1",
+   "metadata": {},
+   "source": [
+    "SELECT * WHERE course = 'data-engineering-zoomcamp';"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "a8d8ea88-7412-49c1-8a8e-44d0d0862a17",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "q = 'the course has already started, can I still enroll?'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "ce7d0d18-5c07-4010-9f90-bbd021f110c8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "<minsearch.Index at 0x7d0d016b8760>"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "index.fit(documents)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "aa755a08-b98d-4e92-8994-04e6108499d9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from openai import OpenAI"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "ef8e9cdc-dfd4-4e54-a332-4b9bde4e6047",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "client = OpenAI()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "e7da9664-ecb3-4d89-87da-9b2b942444d0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"It's not uncommon for courses to accept enrollments even after they have started, but policies can vary widely depending on the institution or provider offering the course. Here are a few steps you can take to find out if you can still enroll:\\n\\n1. **Check the Course Platform**: If the course is offered online, visit the course's webpage for information about late enrollment policies.\\n\\n2. **Contact the Instructor**: Reach out to the course instructor or lead facilitator. They may be willing to make an exception or provide you with the necessary information.\\n\\n3. **Reach Out to Administrative Offices**: Contact the academic or administrative office responsible for course enrollments. This might be the registrar's office, student services, or a similar department.\\n\\n4. **Review Deadlines and Policies**: Look for any publicly available documentation outlining the deadlines and policies regarding late enrollments.\\n\\n5. **Consider Catching Up**: Be prepared to quickly catch up on any missed material if you are allowed to enroll late. This shows commitment and can make it easier for instructors or administration to accommodate your request.\\n\\nRemember, clear and courteous communication will always help you in these situations. Good luck!\""
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "response = client.chat.completions.create(\n",
+    "    model='gpt-4o',\n",
+    "    messages=[{\"role\": \"user\", \"content\": q}]\n",
+    ")\n",
+    "\n",
+    "response.choices[0].message.content"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "b21237c3-80e9-429c-a089-d45428087046",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def search(query):\n",
+    "    boost = {'question': 3.0, 'section': 0.5}\n",
+    "\n",
+    "    results = index.search(\n",
+    "        query=query,\n",
+    "        filter_dict={'course': 'data-engineering-zoomcamp'},\n",
+    "        boost_dict=boost,\n",
+    "        num_results=5\n",
+    "    )\n",
+    "\n",
+    "    return results"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "8cc5784e-6515-42e5-be62-8fb915df1088",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def build_prompt(query, search_results):\n",
+    "    prompt_template = \"\"\"\n",
+    "You're a course teaching assistant. Answer the QUESTION based on the CONTEXT from the FAQ database.\n",
+    "Use only the facts from the CONTEXT when answering the QUESTION.\n",
+    "\n",
+    "QUESTION: {question}\n",
+    "\n",
+    "CONTEXT: \n",
+    "{context}\n",
+    "\"\"\".strip()\n",
+    "\n",
+    "    context = \"\"\n",
+    "    \n",
+    "    for doc in search_results:\n",
+    "        context = context + f\"section: {doc['section']}\\nquestion: {doc['question']}\\nanswer: {doc['text']}\\n\\n\"\n",
+    "    \n",
+    "    prompt = prompt_template.format(question=query, context=context).strip()\n",
+    "    return prompt"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "97d35dec-c25f-472d-b961-20d5c30902ae",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def llm(prompt):\n",
+    "    response = client.chat.completions.create(\n",
+    "        model='gpt-4o',\n",
+    "        messages=[{\"role\": \"user\", \"content\": prompt}]\n",
+    "    )\n",
+    "    \n",
+    "    return response.choices[0].message.content"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "8602f40b-ad3b-49c9-b3cc-051a79c888bc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "query = 'how do I run kafka?'\n",
+    "\n",
+    "def rag(query):\n",
+    "    search_results = search(query)\n",
+    "    prompt = build_prompt(query, search_results)\n",
+    "    answer = llm(prompt)\n",
+    "    return answer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "5fd4497b-c5d5-4258-b950-6b35d1af4ec5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"To run Kafka, follow the relevant instructions based on your use case:\\n\\n### For Java:\\nNavigate to your project directory and use the following command in the terminal to run a Kafka producer/consumer/KStreams, etc.:\\n```shell\\njava -cp build/libs/<jar_name>-1.0-SNAPSHOT.jar:out src/main/java/org/example/JsonProducer.java\\n```\\nReplace `<jar_name>` with the actual name of your JAR file.\\n\\n### For Python:\\nIf you're running Python Kafka, ensure you have your virtual environment set up and activate it. Here’s how you can do it:\\n\\n1. **Create a virtual environment and install required packages (run only once):**\\n    ```shell\\n    python -m venv env\\n    source env/bin/activate\\n    pip install -r ../requirements.txt\\n    ```\\n\\n2. **Activate the virtual environment (run this every time you need it):**\\n    ```shell\\n    source env/bin/activate\\n    ```\\n\\n3. **Deactivate the virtual environment when done:**\\n    ```shell\\n    deactivate\\n    ```\\n\\nNote: On Windows, the activation command would be slightly different:\\n```shell\\nenv\\\\Scripts\\\\activate\\n```\\n\\nMake sure that your Docker images are up and running if they are part of your setup.\""
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rag(query)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "385b012f-4905-422d-8d7c-3d542dfe5a7c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Yes, you can still enroll in the course even after it has started. You are eligible to submit homework assignments, but please be mindful of the deadlines for the final projects to ensure you complete everything on time.'"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rag('the course has already started, can I still enroll?')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "d3e04fb3-b7f7-4e53-8de9-a1c6cde3f038",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'text': \"The purpose of this document is to capture frequently asked technical questions\\nThe exact day and hour of the course will be 15th Jan 2024 at 17h00. The course will start with the first  “Office Hours'' live.1\\nSubscribe to course public Google Calendar (it works from Desktop only).\\nRegister before the course starts using this link.\\nJoin the course Telegram channel with announcements.\\nDon’t forget to register in DataTalks.Club's Slack and join the channel.\",\n",
+       " 'section': 'General course-related questions',\n",
+       " 'question': 'Course - When will the course start?',\n",
+       " 'course': 'data-engineering-zoomcamp'}"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "documents[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "2c05052f-a85a-4137-8398-0fd0be678599",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from elasticsearch import Elasticsearch"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "a78df1cc-5a5a-40b4-b673-19c7f0319453",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "es_client = Elasticsearch('http://localhost:9200') "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "c9367c18-41ad-495e-9920-1a0c552f0d18",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "ObjectApiResponse({'acknowledged': True, 'shards_acknowledged': True, 'index': 'course-questions'})"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "index_settings = {\n",
+    "    \"settings\": {\n",
+    "        \"number_of_shards\": 1,\n",
+    "        \"number_of_replicas\": 0\n",
+    "    },\n",
+    "    \"mappings\": {\n",
+    "        \"properties\": {\n",
+    "            \"text\": {\"type\": \"text\"},\n",
+    "            \"section\": {\"type\": \"text\"},\n",
+    "            \"question\": {\"type\": \"text\"},\n",
+    "            \"course\": {\"type\": \"keyword\"} \n",
+    "        }\n",
+    "    }\n",
+    "}\n",
+    "\n",
+    "index_name = \"course-questions\"\n",
+    "\n",
+    "es_client.indices.create(index=index_name, body=index_settings)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "9f778c93-a5b6-4634-b42e-0c25083a2512",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{'text': \"The purpose of this document is to capture frequently asked technical questions\\nThe exact day and hour of the course will be 15th Jan 2024 at 17h00. The course will start with the first  “Office Hours'' live.1\\nSubscribe to course public Google Calendar (it works from Desktop only).\\nRegister before the course starts using this link.\\nJoin the course Telegram channel with announcements.\\nDon’t forget to register in DataTalks.Club's Slack and join the channel.\",\n",
+       " 'section': 'General course-related questions',\n",
+       " 'question': 'Course - When will the course start?',\n",
+       " 'course': 'data-engineering-zoomcamp'}"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "documents[0]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "5c230059-e219-4a13-a7f8-ede4cf1b028f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/usr/local/python/3.10.13/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html\n",
+      "  from .autonotebook import tqdm as notebook_tqdm\n"
+     ]
+    }
+   ],
+   "source": [
+    "from tqdm.auto import tqdm"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "70fe3c97-916d-42c0-bd7b-4f42d9056409",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "100%|██████████████████████████████████| 948/948 [00:28<00:00, 33.07it/s]\n"
+     ]
+    }
+   ],
+   "source": [
+    "for doc in tqdm(documents):\n",
+    "    es_client.index(index=index_name, document=doc)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "f1bc1244-b8dc-4228-8171-c0507004db93",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "query = 'I just disovered the course. Can I still join it?'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "7c72e000-910b-4fb5-aa88-2561e7bc39f2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def elastic_search(query):\n",
+    "    search_query = {\n",
+    "        \"size\": 5,\n",
+    "        \"query\": {\n",
+    "            \"bool\": {\n",
+    "                \"must\": {\n",
+    "                    \"multi_match\": {\n",
+    "                        \"query\": query,\n",
+    "                        \"fields\": [\"question^3\", \"text\", \"section\"],\n",
+    "                        \"type\": \"best_fields\"\n",
+    "                    }\n",
+    "                },\n",
+    "                \"filter\": {\n",
+    "                    \"term\": {\n",
+    "                        \"course\": \"data-engineering-zoomcamp\"\n",
+    "                    }\n",
+    "                }\n",
+    "            }\n",
+    "        }\n",
+    "    }\n",
+    "\n",
+    "    response = es_client.search(index=index_name, body=search_query)\n",
+    "    \n",
+    "    result_docs = []\n",
+    "    \n",
+    "    for hit in response['hits']['hits']:\n",
+    "        result_docs.append(hit['_source'])\n",
+    "    \n",
+    "    return result_docs"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "81abecbc-eb6b-428f-ab7d-7e21f58b64de",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def rag(query):\n",
+    "    search_results = elastic_search(query)\n",
+    "    prompt = build_prompt(query, search_results)\n",
+    "    answer = llm(prompt)\n",
+    "    return answer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "0ea9315a-a619-4066-9e90-8c260f2c8450",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Yes, you can still join the course even if you discovered it after the start date. You are eligible to submit the homeworks, but be mindful of the deadlines for turning in the final projects. So make sure not to leave everything for the last minute.'"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "rag(query)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d8095274-c9cd-4fd5-80d2-069fc951834f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+</file>
+
+<file path="README.md">
+# Module 1: Introduction
+ 
+In this module, we will learn what LLM and RAG are and
+implement a simple RAG pipeline to answer questions about 
+the FAQ Documents from our Zoomcamp courses
+
+What we will do: 
+
+* Index Zoomcamp FAQ documents
+    * DE Zoomcamp: https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit
+    * ML Zoomcamp: https://docs.google.com/document/d/1LpPanc33QJJ6BSsyxVg-pWNMplal84TdZtq10naIhD8/edit
+    * MLOps Zoomcamp: https://docs.google.com/document/d/12TlBfhIiKtyBv8RnsoJR6F72bkPDGEvPOItJIxaEzE0/edit
+* Create a Q&A system for answering questions about these documents 
+
+## 1.1 Introduction to LLM and RAG
+
+<a href="https://www.youtube.com/watch?v=Q75JgLEXMsM&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/Q75JgLEXMsM">
+</a>
+
+* LLM
+* RAG
+* RAG architecture
+* Course outcome
+
+
+## 1.2 Preparing the Environment
+
+<a href="https://www.youtube.com/watch?v=ozCpmkbJNJE&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/ozCpmkbJNJE">
+</a>
+
+* Installing libraries
+* Alternative: installing anaconda or miniconda
+
+```bash
+pip install tqdm notebook==7.1.2 openai elasticsearch==8.13.0 pandas scikit-learn ipywidgets
+```
+
+## 1.3 Retrieval
+
+<a href="https://www.youtube.com/watch?v=olvem333Bqo&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/olvem333Bqo">
+</a>
+
+Note: as of now, you can install minsearch with pip:
+
+```bash
+pip install minsearch
+```
+
+* We will use the search engine we build in the [build-your-own-search-engine workshop](https://github.com/alexeygrigorev/build-your-own-search-engine): [minsearch](https://github.com/alexeygrigorev/minsearch)
+* Indexing the documents
+* Peforming the search
+
+
+## 1.4 Generation with OpenAI
+
+<a href="https://www.youtube.com/watch?v=qz316T3U49Q&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/qz316T3U49Q">
+</a>
+
+* Invoking OpenAI API
+* Building the prompt
+* Getting the answer
+
+
+If you don't want to use a service, you can run an LLM locally
+refer to [module 2](../02-open-source/) for more details.
+
+In particular, check "2.7 Ollama - Running LLMs on a CPU" - 
+it can work with OpenAI API, so to make the example from 1.4 
+work locally, you only need to change a few lines of code.
+
+
+## 1.4.2 OpenAI API Alternatives
+
+<a href="https://www.youtube.com/watch?v=HObjFso2UJE&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/HObjFso2UJE">
+</a>
+
+[Open AI Alternatives](../awesome-llms.md#openai-api-alternatives)
+
+
+## 1.5 Cleaned RAG flow
+
+<a href="https://www.youtube.com/watch?v=vkTiVwwch6A&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/vkTiVwwch6A">
+</a>
+
+* Cleaning the code we wrote so far
+* Making it modular
+
+## 1.6 Searching with ElasticSearch
+
+<a href="https://www.youtube.com/watch?v=1lgbR5wMvsI&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R">
+  <img src="https://markdown-videos-api.jorgenkh.no/youtube/1lgbR5wMvsI">
+</a>
+
+* Run ElasticSearch with Docker
+* Index the documents
+* Replace MinSearch with ElasticSearch
+
+Running ElasticSearch:
+
+```bash
+docker run -it \
+    --rm \
+    --name elasticsearch \
+    -m 4GB \
+    -p 9200:9200 \
+    -p 9300:9300 \
+    -e "discovery.type=single-node" \
+    -e "xpack.security.enabled=false" \
+    docker.elastic.co/elasticsearch/elasticsearch:8.4.3
+```
+
+If the previous command doesn't work (i.e. you see "error pulling image configuration"), try to run ElasticSearch directly from Docker Hub:
+
+```bash
+docker run -it \
+    --rm \
+    --name elasticsearch \
+    -p 9200:9200 \
+    -p 9300:9300 \
+    -e "discovery.type=single-node" \
+    -e "xpack.security.enabled=false" \
+    elasticsearch:8.4.3
+```
+
+Index settings:
+
+```python
+{
+    "settings": {
+        "number_of_shards": 1,
+        "number_of_replicas": 0
+    },
+    "mappings": {
+        "properties": {
+            "text": {"type": "text"},
+            "section": {"type": "text"},
+            "question": {"type": "text"},
+            "course": {"type": "keyword"} 
+        }
+    }
+}
+```
+
+Query:
+
+```python
+{
+    "size": 5,
+    "query": {
+        "bool": {
+            "must": {
+                "multi_match": {
+                    "query": query,
+                    "fields": ["question^3", "text", "section"],
+                    "type": "best_fields"
+                }
+            },
+            "filter": {
+                "term": {
+                    "course": "data-engineering-zoomcamp"
+                }
+            }
+        }
+    }
+}
+```
+
+We use `"type": "best_fields"`. You can read more about 
+different types of `multi_match` search in [elastic-search.md](elastic-search.md).
+
+# 1.7 Homework
+More information [here](../cohorts/2025/01-intro/homework.md).
+
+
+# Extra materials
+
+* If you're curious to know how the code for parsing the FAQ works, check [this video](https://www.loom.com/share/ff54d898188b402d880dbea2a7cb8064)
+
+# Open-Source LLMs (optional)
+
+It's also possible to run LLMs locally. For that, we 
+can use Ollama. Check these videos from LLM Zoomcamp 2024
+if you're interested in learning more about it:
+
+* [Ollama - Running LLMs on a CPU](https://www.youtube.com/watch?v=PVpBGs_iSjY&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R)
+* [Ollama & Phi3 + Elastic in Docker-Compose](https://www.youtube.com/watch?v=4juoo_jk96U&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R)
+* [UI for RAG](https://www.youtube.com/watch?v=R6L8PZ-7bGo&list=PL3MmuxUbc_hIB4fSqLy_0AfTjVLpgjV3R)
+
+To see the command lines used in the videos,
+see [2024 cohort folder](../cohorts/2024/02-open-source#27-ollama---running-llms-on-a-cpu)
+
+# Notes
+
+* [Notes by slavaheroes](https://github.com/slavaheroes/llm-zoomcamp/blob/homeworks/01-intro/notes.md)
+* [Notes by Pham Nguyen Hung](https://hung.bearblog.dev/llm-zoomcamp-1-rag/)
+* [Notes by dimzachar](https://github.com/dimzachar/llm_zoomcamp/blob/master/notes/01-intro/README.md)
+* [Notes by Olawale Ogundeji](https://github.com/presiZHai/LLM-Zoomcamp/blob/main/01-intro/notes.md)
+* [Notes by Uchechukwu](https://medium.com/@njokuuchechi/an-intro-to-large-language-models-llms-0c51c09abe10)
+* [Notes by Kamal](https://github.com/mk-hassan/llm-zoomcamp/blob/main/Module-1%3A%20Introduction%20to%20LLMs%20and%20RAG/README.md)
+* [Notes by Marat](https://machine-mind-ml.medium.com/discovering-semantic-search-and-rag-with-large-language-models-be7d9ba5bef4)
+* [Notes by Waleed](https://waleedayoub.com/post/llmzoomcamp_week1-intro_notes/)
+* [Cohort 2025|RAG FAQ using Elastic Search by Nitin Gupta](https://github.com/niting9881/llm-zoomcamp/blob/main/01-intro/README.md)
+* Did you take notes? Add them above this line (Send a PR with *links* to your notes)
+</file>
+
+</files>
